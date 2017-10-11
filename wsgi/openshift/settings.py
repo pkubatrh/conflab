@@ -35,7 +35,7 @@ SECRET_KEY = os.getenv(
 
 # SECURITY WARNING: don't run with debug turned on in production!
 if ON_OPENSHIFT:
-    DEBUG = False
+    DEBUG = True
 else:
     DEBUG = True
 
